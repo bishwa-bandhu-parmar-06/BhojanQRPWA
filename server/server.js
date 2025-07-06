@@ -24,8 +24,8 @@ const app = express();
 // Enhanced CORS configuration
 const corsOptions = {
   origin: [
-    // 'https://bhojan-qr.vercel.app',
-    'http://localhost:5173'
+    'https://bhojan-qrpwa.vercel.app',
+    // 'http://localhost:5173'
   ],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
